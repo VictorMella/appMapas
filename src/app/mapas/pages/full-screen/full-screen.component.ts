@@ -14,7 +14,7 @@ export class FullScreenComponent implements OnInit {
       container: 'mapa',
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [-73.00349906408556, -36.744123074937555],
-      zoom: 18, //Mientras mas alto el el numero mas cerca de la tierra se vera
+      zoom: 10, //Mientras mas alto el el numero mas cerca de la tierra se vera
   });
   // Add map controls
    map.addControl(new mapboxgl.NavigationControl());
