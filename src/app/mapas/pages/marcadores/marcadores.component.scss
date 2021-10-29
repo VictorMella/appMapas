@@ -1,0 +1,32 @@
+.mapa-container {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.list-group{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 99999;
+  li{
+    cursor: pointer;
+  }
+  li:not(:first-child) {
+    color: white;
+  }
+}
+.row{
+  background-color: white;
+  z-index: 999;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+  @media screen and (max-width: 426px) {
+    width: 90%;
+    bottom: 30px;
+    left: 30px;
+  }
+}

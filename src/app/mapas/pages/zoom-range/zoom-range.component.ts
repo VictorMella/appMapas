@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core'
 import * as mapboxgl from 'mapbox-gl'
-import { TargetLocator } from 'selenium-webdriver'
+
 @Component({
   selector: 'app-zoom-range',
   templateUrl: './zoom-range.component.html',
